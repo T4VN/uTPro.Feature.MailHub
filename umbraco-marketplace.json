@@ -1,0 +1,31 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Category": "Analytics",
+  "Title": "uTPro Mail Hub",
+  "Description": "Self-contained email monitoring, audit history, and delivery metrics dashboard for Umbraco 17 and 18. Transparently wraps Umbraco's built-in IEmailSender decorator so every transactional and system email (member invites, password resets, shop notifications, custom contact forms) is automatically tracked with zero host code changes. Logs sender, recipients (To/Cc/Bcc), subject, body, email type, source, timestamps, status (Sent/Error), and detailed error stacktraces. Includes a rich backoffice dashboard in Settings with volume metrics, success/error distribution, source/type breakdown, recipient domain stats, filterable history, and email resend/delete actions. Cross-database (SQL Server, SQLite, PostgreSQL) via NPoco migrations with automatic retention cleanup.",
+  "AuthorDetails": {
+    "Name": "T4VN",
+    "Url": "https://t4vn.com",
+    "ImageUrl": "https://github.com/t4vn.png",
+    "SyncContributorsFromRepository": true
+  },
+  "LicenseTypes": [
+    "Free"
+  ],
+  "Tags": [
+    "email",
+    "mail",
+    "email-sender",
+    "monitoring",
+    "dashboard",
+    "audit",
+    "log",
+    "mailhub",
+    "smtp",
+    "delivery"
+  ],
+  "LookingForContributors": true,
+  "PackageType": "Package",
+  "DocumentationUrl": "https://docs.utpro.dev/uTPro.Feature.MailHub/",
+  "IssueTrackerUrl": "https://github.com/T4VN/uTPro.Feature.MailHub/issues"
+}
